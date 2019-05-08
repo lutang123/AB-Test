@@ -14,7 +14,11 @@ If we fail to reject the null hypothesis, the results would suggest keeping the 
 
 Summary of our steps:
 
-First we set hypothesis, and our null hypothesis is H0: CTR_{experiment} - CTR_{control} <= 0.
+First we set hypothesis:
+
+null hypothesis is H0: CTR_{experiment} - CTR_{control} <= 0
+
+alternative hypothesis is H1: CTR_{experiment} - CTR_{control} > 0.
 
 In Step_1, we have calculated the observed difference in CTR between experiment and control group as obs_diff, i.e. CTR_{experiment} - CTR_{control} = 0.030034443684015644.
 
